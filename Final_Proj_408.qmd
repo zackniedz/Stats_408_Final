@@ -17,7 +17,7 @@ Github Repo: https://github.com/zackniedz/Stats_408_Final
 
 ## Section 1: Preparation
 
-Lets load packages, and clean the data to prepare it for analysis
+Lets load packages, and clean the data to prepare it for analysis. Use ggplot2 to make graphs and maps and use gt to make nice looking charts. "st_read" is a great way to read in vector data.
 
 ```{r}
 #| warning: false
@@ -45,7 +45,7 @@ reigons <- suppressMessages(
 
 ```
 
-Clean the data and take a look at it
+Clean the data using the "select" function and delineate which columns you would like to maintain and in what order. Then use the head() function to see the top 5 rows and gt() to make the chart pretty this will populate a chart.
 
 \FloatBarrier
 
@@ -77,7 +77,7 @@ head(avy1) %>%
 
 ## Section 2: Map the forecast zones and avalanche events
 
-plot the forecast zones on a map
+plot the forecast zones on a map using ggplot and name the map "polygons." st_transform() allows you to set a CRS with a unique code.
 
 ```{r}
 #| warning: false
@@ -96,7 +96,7 @@ pollygons<- ggplot() +
 pollygons
 ```
 
-plot the observed avalanche events on the previously made map and stack them for side by side analysis.
+plot the observed avalanche events on the previously made map by creating a new one called "point_map." the genom_sf() function allows you to put multliple data sources on one map. Then, stack them for on top of each other for analysis using a "/."
 
 ```{r}
 #| warning: false
@@ -129,7 +129,7 @@ pollygons / point_map
 
 The following chunks will make bar graphs of total events per zone
 
-3A) make a plot of total avalanche events per region
+3A) make a plot of total avalanche events per region using ggplot. the count() function totals the amount of events that occur in one region and stores that data under "region_ammt."
 
 ```{r}
 #| fig-width: 10
@@ -160,6 +160,8 @@ region_plot
 \newpage
 
 3B) Make a chart of average destructive capability (D) of avalanches in each region.
+
+This is very similar to the chart above. we are going to use the mean() function to average the D sizes throughout a region and store that data under D_avg.
 
 Avalanche size measured on the D scale describes the destructive capability of avalanches on a scale of 0 to 4. 0 indicates no destructive capability while size 4 can destroy 10 acres of Forrest and involves about 10,000 tons of snow. The following plot visualizes the average destructive capability (D) of avalanches in each region.
 
@@ -195,6 +197,8 @@ D_plot
 \newpage
 
 3C) Make a chart of average relative size (R) of avalanches for each region.
+
+We are doing the same thing as we did with the D plot, but with a different column of data, R.size.
 
 Similar to the D scale, the R scale measures the size of an avalanche. R stands for relative and measures the avalanche size relative to the maximum possible size the slope is capable of. R is measured on a scale of 1 to 4; 4 being the largest possible avalanche for a specific slope.
 
@@ -233,6 +237,8 @@ R_plot
 \FloatBarrier
 
 ## Section 4: Make some tables
+
+Here, we are using the gt package to put the data into a table form. we are using the previously made data frames, dropping the geometry column with st_drop_geometry(), then using gt() to make an aesthetic chart and add a title.
 
 ```{r}
 #| fig-height: 2
