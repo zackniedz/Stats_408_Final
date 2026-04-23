@@ -273,12 +273,6 @@ region_ammt %>%
 
 There appears to be no correlation between D size and R size. For all of the regions, the D size and R size appear to be very similar. Considerations that might throw off the data would be a lack thereof. For example, notice how "Outside of Advisory Area" and "Island Park" only have two observations that appear to be quite large this may throw off data because those regions may not be as patrolled due to their distance. Furthermore, the large amount of observations in the Bridger and Cook City regions can likely be attested to their increased traffic and their proximity to Bozeman, where the GNFAC offices are.
 
-## Reflection
-
-In this project, I pieced together a lot of data I am very interested in. My goal was to compare different factors for each region and visualize the results to see if one region was either higher risk or higher consequence in an avalanche scenario. I also wanted to work with mapping multiple types of data on one map (shapefile and point data). This project is complex, because it combines spatial statistical analysis with quantitative analysis. It also works with avalanches, a quite stochastic event. This project is relevant as I am a snow scientist interested in avalanches and ski patroll. Understanding trends in avalanche behavior is a science in itself and in Montana, very pertinent to recreational and public safety. My biggest stretch fr this project was learning github and formatting they where showing up at random locations in the rendering. I this project, I am most pound of the maps, primarily the point map. I believe the maps and the charts, along with the data cleaning gets my point across effectively and with ease to the consumer.
-
-## 
-
 ```{r}
 #| echo: false
 #| output: false
