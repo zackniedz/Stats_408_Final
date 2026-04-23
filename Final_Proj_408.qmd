@@ -2,7 +2,7 @@
 title: "Avalanche Analysis Tutorial "
 author: "Zack Niedzwiecki"
 format: 
-  pdf:
+  html:
     include-in-header: 
       text: |
         \usepackage{placeins}
