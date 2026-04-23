@@ -1,0 +1,443 @@
+---
+title: "Avalanche Analysis Tutorial "
+author: "Zack Niedzwiecki"
+format: 
+  pdf:
+    include-in-header: 
+      text: |
+        \usepackage{placeins}
+editor: visual
+---
+
+## Spatial and Statistical Analysis of Avalanches Observed by the Gallatin National Forest Avalanche Center (GNFAC)
+
+The GNFAC is the avalanche research and forecasting center for the Gallatin valley in Montana. In order to collect and distribute accurate data, they have split their forecast area into 8 different regions. These regions act independently as they have different characteristics. Each day, a forecast is shared with the public for each region and when avalanche data is collected it is paired with a region. In this tutorial, you will analyse the spatial distribution and behaviors of avalanches in each region of the GNFAC.
+
+Github Repo: https://github.com/zackniedz/Stats_408_Final
+
+## Section 1: Preparation
+
+Lets load packages, and clean the data to prepare it for analysis
+
+```{r}
+#| warning: false
+#| message: false
+# load libraries and data
+# READ .kml
+#install.packages("prettymapr")
+#install.packages("gt")
+library(sf)
+library(tidyverse)
+library(ggplot2)
+library(ggspatial)
+library(prettymapr)
+library(gt)
+library(patchwork)
+library(dplyr)
+#read in region shapefile recieved from GNFAC
+
+reigons <- suppressMessages(
+  suppressWarnings(
+    sf::st_read("GNFAC Polygons ALL.kml", quiet = TRUE)
+  )
+)
+
+
+```
+
+Clean the data and take a look at it
+
+\FloatBarrier
+
+```{r}
+#| warning: false
+#| message: false
+
+#load GNFAC avalanche data
+
+avy_data <- read.csv("GNFAC_2024-2025_AVY_DATA(Sheet1).csv")
+
+#clean data to contain relevent collumns
+
+avy1<-avy_data%>%
+  select("Date", "Longitude", "Latitude", "Region","Elevation","Aspect", "Avalanche.Type","D.size","R.size")
+avy1 <- na.omit(avy1)
+
+# manke it pretty
+
+head(avy1) %>%
+  gt() %>%
+  tab_header(title = "Raw Avalanche Data (GNFAC)")
+
+```
+
+\FloatBarrier
+
+\newpage
+
+## Section 2: Map the forecast zones and avalanche events
+
+plot the forecast zones on a map
+
+```{r}
+#| warning: false
+#| message: false
+#Make map of shapefile and visualize
+
+#set CRS
+reigons <- st_transform(reigons, 4326)
+
+#set plot conditions 
+pollygons<- ggplot() +
+  annotation_map_tile(type = "osm") +   # basemap
+  geom_sf(data = reigons, color = "black", linewidth = 0.5, alpha = 0) +
+  coord_sf() +
+  theme_minimal()
+pollygons
+```
+
+plot the observed avalanche events on the previously made map and stack them for side by side analysis.
+
+```{r}
+#| warning: false
+#| message: false
+#| fig-width: 9
+#| fig-height: 10
+#plot avalanches on map
+
+#georeference the lat and long collumns of the .csv
+avy_map <- st_as_sf(avy1,
+                  coords = c("Longitude", "Latitude"),
+                  crs = 4326)  # WGS84
+
+# plot the location of the avalanche events over the shapefile
+
+point_map <- ggplot() +
+  annotation_map_tile(type = "osm") +   # basemap
+  geom_sf(data = reigons, color = "black", linewidth = 0.5, alpha = 0) +
+  geom_sf(data = avy_map, color = "red", size = 1)+
+  theme_minimal()
+
+# stack the graphs
+
+pollygons / point_map
+```
+
+\newpage
+
+## Section 3: Make plots of avalanche characteristics per region
+
+The following chunks will make bar graphs of total events per zone
+
+3A) make a plot of total avalanche events per region
+
+```{r}
+#| fig-width: 10
+#plot avalanches by region
+
+region_ammt <- avy_map |> count(Region) #count the ammount of avalanches per region
+
+# plot the ammount of avalanches per region
+
+region_plot <- ggplot(region_ammt, aes(
+  x = Region,
+  y = n
+))+
+  labs( 
+    title = "Avalanche Ammount Per Advisory Region",
+    x = "Region",
+    y = "Ammount of Avalanches"
+      )+
+  geom_col()+
+  
+  #stack x axis titles so they dont overlap
+  
+  scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) 
+  
+region_plot
+```
+
+\newpage
+
+3B) Make a chart of average destructive capability (D) of avalanches in each region.
+
+Avalanche size measured on the D scale describes the destructive capability of avalanches on a scale of 0 to 4. 0 indicates no destructive capability while size 4 can destroy 10 acres of Forrest and involves about 10,000 tons of snow. The following plot visualizes the average destructive capability (D) of avalanches in each region.
+
+```{r}
+#| fig-width: 10
+# compare aspect to D-size
+
+D_avg <- avy_map %>% #take the everage destructive size (D.size) for each region
+  group_by(Region) %>%
+  summarise(mean_d = mean(D.size, na.rm = TRUE),
+            n = n()
+  )
+
+#plot the average destructive size for avalanches in each region
+
+D_plot <- ggplot(D_avg, aes(
+  x = Region,
+  y = mean_d
+))+
+  labs( 
+    title = "Destructive Size of Avalanches per Region",
+    x = "Region",
+    y = "Destructive Capability of Avalanches (0-4)"
+      )+
+  geom_col()+
+  scale_x_discrete(labels = function(x) str_wrap(x, width = 10))+ #stack titles on the x
+  geom_text(aes(label = paste0("Events =", n)),
+            vjust = -0.3)
+
+D_plot
+```
+
+\newpage
+
+3C) Make a chart of average relative size (R) of avalanches for each region.
+
+Similar to the D scale, the R scale measures the size of an avalanche. R stands for relative and measures the avalanche size relative to the maximum possible size the slope is capable of. R is measured on a scale of 1 to 4; 4 being the largest possible avalanche for a specific slope.
+
+```{r}
+#| fig-width: 10
+
+R_avg <- avy_map %>% #take the average destructive size (D.size) for each region
+  group_by(Region) %>%
+  summarise(mean_r = mean(R.size, na.rm = TRUE),
+            n = n()
+  )
+
+
+#plot the average destructive size for avalanches in each region
+
+R_plot <- ggplot(R_avg, aes(
+  x = Region,
+  y = mean_r
+))+
+  labs( 
+    title = "Reletive Size of Avalanches per Region",
+    x = "Region",
+    y = "Avalanche Size Reletive to Slope (0-4)"
+      )+
+  geom_col()+
+  scale_x_discrete(labels = function(x) str_wrap(x, width = 10))+ #stack titles on the x
+  geom_text(aes(label = paste0("Events =", n)),
+            vjust = -0.3)
+
+  
+R_plot
+```
+
+\newpage
+
+\FloatBarrier
+
+## Section 4: Make some tables
+
+```{r}
+#| fig-height: 2
+
+
+
+#remove geometry collumn
+
+D_avg <- st_drop_geometry(D_avg)
+R_avg <- st_drop_geometry(R_avg)
+region_ammt <- st_drop_geometry(region_ammt)
+
+# This simply calls a chart created earlier and uses gt() to make an aestetic chart.
+
+D_avg %>%
+  gt() %>%
+  tab_header(title = "Average Avalanche Size (D)")
+
+R_avg %>%
+  gt() %>%
+  tab_header(title = "Reletive Average Avalanche Size (R)")
+
+region_ammt %>%
+  gt() %>%
+  tab_header(title = "Avalanches per region")
+
+```
+
+\FloatBarrier
+
+## Analysis
+
+There appears to be no correlation between D size and R size. For all of the regions, the D size and R size appear to be very similar. Considerations that might throw off the data would be a lack thereof. For example, notice how "Outside of Advisory Area" and "Island Park" only have two observations that appear to be quite large this may throw off data because those regions may not be as patrolled due to their distance. Furthermore, the large amount of observations in the Bridger and Cook City regions can likely be attested to their increased traffic and their proximity to Bozeman, where the GNFAC offices are.
+
+## 
+
+```{r}
+#| echo: false
+#| output: false
+#| warning: false
+#| message: false
+#| results: hide
+#| fig-show: hide
+
+# load libraries and data
+# READ .kml
+#install.packages("prettymapr")
+#install.packages("gt")
+library(sf)
+library(tidyverse)
+library(ggplot2)
+library(ggspatial)
+library(prettymapr)
+library(gt)
+library(patchwork)
+library(dplyr)
+#read in region shapefile recieved from GNFAC
+
+reigons <- suppressMessages(
+  suppressWarnings(
+    sf::st_read("GNFAC Polygons ALL.kml", quiet = TRUE)
+  )
+)
+
+#load GNFAC avalanche data
+
+avy_data <- read.csv("GNFAC_2024-2025_AVY_DATA(Sheet1).csv")
+
+#clean data to contain relevent collumns
+
+avy1<-avy_data%>%
+  select("Date", "Longitude", "Latitude", "Region","Elevation","Aspect", "Avalanche.Type","D.size","R.size")
+avy1 <- na.omit(avy1)
+
+# manke it pretty
+
+head(avy1) %>%
+  gt() %>%
+  tab_header(title = "Raw Avalanche Data (GNFAC)")
+
+#Make map of shapefile and visualize
+
+#set CRS
+reigons <- st_transform(reigons, 4326)
+
+#set plot conditions 
+pollygons<- ggplot() +
+  annotation_map_tile(type = "osm") +   # basemap
+  geom_sf(data = reigons, color = "black", linewidth = 0.5, alpha = 0) +
+  coord_sf() +
+  theme_minimal()
+pollygons
+
+#plot avalanches on map
+
+#georeference the lat and long collumns of the .csv
+avy_map <- st_as_sf(avy1,
+                  coords = c("Longitude", "Latitude"),
+                  crs = 4326)  # WGS84
+
+# plot the location of the avalanche events over the shapefile
+
+point_map <- ggplot() +
+  annotation_map_tile(type = "osm") +   # basemap
+  geom_sf(data = reigons, color = "black", linewidth = 0.5, alpha = 0) +
+  geom_sf(data = avy_map, color = "red", size = 1)+
+  theme_minimal()
+
+
+pollygons / point_map
+
+#plot avalanches by region
+
+region_ammt <- avy_map |> count(Region) #count the ammount of avalanches per region
+
+# plot the ammount of avalanches per region
+
+region_plot <- ggplot(region_ammt, aes(
+  x = Region,
+  y = n
+))+
+  labs( 
+    title = "Avalanche Ammount Per Advisory Region",
+    x = "Region",
+    y = "Ammount of Avalanches"
+      )+
+  geom_col()+
+  
+  #stack x axis titles so they dont overlap
+  
+  scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) 
+  
+region_plot
+
+# compare aspect to D-size
+
+D_avg <- avy_map %>% #take the everage destructive size (D.size) for each region
+  group_by(Region) %>%
+  summarise(mean_d = mean(D.size, na.rm = TRUE),
+            n = n()
+  )
+
+#plot the average destructive size for avalanches in each region
+
+D_plot <- ggplot(D_avg, aes(
+  x = Region,
+  y = mean_d
+))+
+  labs( 
+    title = "Size of Avalanches per Region",
+    x = "Region",
+    y = "Destructive Capability of Avalanches (0-4)"
+      )+
+  geom_col()+
+  scale_x_discrete(labels = function(x) str_wrap(x, width = 10))+ #stack titles on the x
+  geom_text(aes(label = paste0("Events =", n)),
+            vjust = -0.3)
+
+D_plot
+
+R_avg <- avy_map %>% #take the average destructive size (D.size) for each region
+  group_by(Region) %>%
+  summarise(mean_r = mean(R.size, na.rm = TRUE),
+            n = n()
+  )
+
+
+#plot the average destructive size for avalanches in each region
+
+R_plot <- ggplot(R_avg, aes(
+  x = Region,
+  y = mean_r
+))+
+  labs( 
+    title = "Reletive Size of Avalanches per Region",
+    x = "Region",
+    y = "Avalanche Size Reletive to Slope (0-4)"
+      )+
+  geom_col()+
+  scale_x_discrete(labels = function(x) str_wrap(x, width = 10))+ #stack titles on the x
+  geom_text(aes(label = paste0("Events =", n)),
+            vjust = -0.3)
+
+  
+R_plot
+
+#remove geometry collumn
+
+D_avg <- st_drop_geometry(D_avg)
+R_avg <- st_drop_geometry(R_avg)
+region_ammt <- st_drop_geometry(region_ammt)
+
+
+
+D_avg %>%
+  gt() %>%
+  tab_header(title = "Average Avalanche Size (D)")
+
+R_avg %>%
+  gt() %>%
+  tab_header(title = "Reletive Average Avalanche Size (R)")
+
+region_ammt %>%
+  gt() %>%
+  tab_header(title = "Avalanches per region")
+
+
+```

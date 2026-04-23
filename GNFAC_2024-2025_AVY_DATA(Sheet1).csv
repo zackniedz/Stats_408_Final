@@ -1,0 +1,378 @@
+Date,Region,Location from list,Title,Code,Elevation,Caught,Buried,Killed,Aspect,Vertical Fall,Latitude,Longitude,Avalanche Type,Bed Surface,D size,R size,Problem Type,Trigger,Slab Thickness units
+5/3/2025,Bridger Range,Bridger Bowl,Skier triggered wet Slide off of The Nose,WL-AS-R2-D1.5,7800,0,0,,E,,45.8156,-110.923,Wet loose-snow avalanche,,1.5,2,,Skier,centimeters
+5/1/2025,Bridger Range,Bridger Bowl,Large recent wet loose avalanches at Bridger,WL-N-R2-D2,8000,0,0,,E,,45.8084,-110.93,Wet loose-snow avalanche,,2,2,Loose Wet,Natural trigger,centimeters
+,,,,,,,,,,,,,,,,,,,
+4/19/2025,Bridger Range,Northern Bridgers,"Skier-triggered small soft slab, northern Bridger Range",SS-AS-R1-D1-I,7700,0,0,,NE,,45.9196,-110.976,Soft slab avalanche,I - Interface between new and old snow,1,1,Wind Slab,Skier,centimeters
+4/19/2025,Cooke City,Sheep Mountain,small wind slab and dry loose slides,SS-AS-R1-D1-I,10200,0,0,,NE,150,45.0722,-109.928,Soft slab avalanche,I - Interface between new and old snow,1,1,Wind Slab,Skier,inches
+4/18/2025,Bridger Range,Fairy Lake,Wet loose in northern bridgers,WL-N-R1-D1,,0,0,,,,45.9043,-110.958,Wet loose-snow avalanche,,1,1,Loose Wet,Natural trigger,centimeters
+4/13/2025,Cooke City,COOKE CITY,Wind Slab Activity in Cooke City,SS-N-R2-D2-I,,0,0,,,,45.0202,-109.938,Soft slab avalanche,I - Interface between new and old snow,2,2,Wind Slab,Natural trigger,centimeters
+,,,,,,,,,,,,,,,,,,,
+4/11/2025,Cooke City,Hayden Creek,wet loose avalanches south of Cooke,WL-N-D1,,0,0,,,,44.9952,-109.908,Wet loose-snow avalanche,,1,,Wet Snow,Natural trigger,centimeters
+,,,,,,,,,,,,,,,,,,,
+4/9/2025,Northern Madison,,Wind slabs in N. Madison,SS-NCc-R1-D1.5,,0,0,,,,,,Soft slab avalanche,,1.5,1,Wind Slab,Cornice fall,inches
+4/9/2025,Bridger Range,Fairy Lake,Thin Wind Slab Avalanche near Hardscrabble,SS-N-R1-D1-I,9000,0,0,,SE,200,45.9043,-110.958,Soft slab avalanche,I - Interface between new and old snow,1,1,Wind Slab,Natural trigger,inches
+,,,,,,,,,,,,,,,,,,,
+4/7/2025,Cooke City,COOKE CITY,Skier triggered and natural wet loose near Cooke,WL-ASc-R1-D1.5-O,1000,0,0,,SE,,45.0202,-109.938,Wet loose-snow avalanche,O - Old snow,1.5,1,Loose Wet,Skier,centimeters
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+4/7/2025,Cooke City,COOKE CITY,Skier triggered wind slab near Cooke,SS-ASc-R1-D1,9800,0,0,,N,200,45.0471,-109.999,Soft slab avalanche,,1,1,Wind Slab,Skier,inches
+,,,,,,,,,,,,,,,,,,,
+4/6/2025,Cooke City,Hayden Creek,Wet Loose Avalanches Cooke City,WL-NC-R1-D1-S,10000,0,0,,E,,44.9952,-109.908,Wet loose-snow avalanche,S - Avalanche released within new snow,1,1,Loose Wet,Cornice fall,centimeters
+4/5/2025,Bridger Range,,Snowboarder triggered wet loose slide in Bridgers,L-AS-R1-D1.5,8800,0,0,,E,,,,Loose-snow avalanche,,1.5,1,,Skier,centimeters
+4/5/2025,Cooke City,Henderson Mountain,Natural wind slabs and loose snow near Cooke,,,0,0,,,,45.0524,-109.945,,,,,,,centimeters
+4/5/2025,Bridger Range,The Great One,Skier carried in wind slab on Naya Nuki,AS-R1-D1.5,9000,0,0,,E,300,45.8926,-110.962,,,1.5,1,Wind Slab,Skier,centimeters
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+4/5/2025,Bridger Range,Bridger Peak,natural loose snow slides in Bridgers,L-N-R1-D1.5,8500,0,0,,E,,45.7701,-110.94,Loose-snow avalanche,,1.5,1,,Natural trigger,centimeters
+4/5/2025,Bridger Range,Saddle Peak,Skier triggered wind slab on Saddle,AS-R1-D1.5-I,9000,0,0,,NE,1200,45.7943,-110.936,,I - Interface between new and old snow,1.5,1,Wind Slab,Skier,inches
+4/5/2025,Cooke City,Henderson Mountain,Reactive wind slabs near Cooke City,HS-AS-R1-D1-S,9800,0,0,,NE,50,45.0524,-109.945,Hard slab avalanche,S - Avalanche released within new snow,1,1,Wind Slab,Skier,inches
+4/3/2025,Bridger Range,Saddle Peak,A Pair of Small Avalanches on Saddle Peak,AS-R1-D1-S,9000,0,0,,NE,200,45.7943,-110.936,,S - Avalanche released within new snow,1,1,,Skier,centimeters
+,,,,,,,,,,,,,,,,,,,
+4/3/2025,Cooke City,COOKE CITY,Wind Slab Avalanche Near Cooke,SS-ASc-R1-D1-I,10100,0,0,,N,,45.0202,-109.938,Soft slab avalanche,I - Interface between new and old snow,1,1,Wind-Drifted Snow,Skier,inches
+,,,,,,,,,,,,,,,,,,,
+4/2/2025,Northern Madison,Bear Basin,Beehive/Bear Obs,SS-ASu-R1-D1.5-S,,0,0,,E,,45.3453,-111.375,Soft slab avalanche,S - Avalanche released within new snow,1.5,1,Wind Slab,Skier,inches
+4/2/2025,Cooke City,Woody Ridge,Skier Triggered Wind Slab - Ice Cream Scoop,SS-ASu-R1-D1-S,9280,0,0,,N,,45.0027,-109.917,Soft slab avalanche,S - Avalanche released within new snow,1,1,Wind Slab,Skier,inches
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+4/1/2025,Cooke City,COOKE CITY,"Storm/Wind Slab N aspect 9600&#039;, Cooke City",SS-ASc-R2-D1.5-S,9600,0,0,,N,,45.0202,-109.938,Soft slab avalanche,S - Avalanche released within new snow,1.5,2,New Snow,Skier,centimeters
+3/31/2025,Bridger Range,Saddle Peak,Wet Loose Avalanche Between Saddle Peak,WL-AS-R1-D1.5-I,,0,0,,E,,45.7943,-110.936,Wet loose-snow avalanche,I - Interface between new and old snow,1.5,1,Loose Wet,Skier,centimeters
+3/30/2025,Bridger Range,Ross Peak,"Small wind slabs in Bridgers, Ross Peak",SS-AS-R1-D1-S,8500,0,0,,NE,50,45.8586,-110.956,Soft slab avalanche,S - Avalanche released within new snow,1,1,Wind Slab,Skier,inches
+3/30/2025,Bridger Range,The Throne,Storm snow avalanches on Throne,AS,8300,0,0,,N,,45.8822,-110.952,,,,,New Snow,Skier,centimeters
+3/30/2025,Bridger Range,Fairy Lake,Dry Loose near Fairy Lake,L-AS-R1-D1.5-S,8400,0,0,,,,45.9043,-110.958,Loose-snow avalanche,S - Avalanche released within new snow,1.5,1,Loose Dry,Skier,centimeters
+3/29/2025,Northern Madison,Beehive Basin,"Point releases, wet loose in Beehive/Middle Basin",WL-N-R1-D1.5,,0,0,,,,45.3407,-111.391,Wet loose-snow avalanche,,1.5,1,Loose Wet,Natural trigger,centimeters
+3/26/2025,Bridger Range,Fairy Lake,Wet Loose Avalanches in Airplane Bowl,WL-N-R1-D1-I,8500,0,0,,,,45.9043,-110.958,Wet loose-snow avalanche,I - Interface between new and old snow,1,1,Wet Snow,Natural trigger,centimeters
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+3/25/2025,Cooke City,Henderson Mountain,Wind slabs North of Cooke City,SS-N-R1-D1-I,10000,0,0,,NE,,45.0524,-109.945,Soft slab avalanche,I - Interface between new and old snow,1,1,Wind Slab,Natural trigger,centimeters
+3/25/2025,Bridger Range,Bradley Meadow,Wet Loose Avalanche Bradleys Meadow,WS-N-R1-D1-I,8000,0,0,,SE,200,45.8322,-110.928,Wet slab avalanche,I - Interface between new and old snow,1,1,Loose Wet,Natural trigger,inches
+3/25/2025,Northern Madison,Gallatin Canyon,Wet slides in Gallatin Canyon,WL-N-R2-D2,,0,0,,S,,45.369,-111.175,Wet loose-snow avalanche,,2,2,Loose Wet,Natural trigger,centimeters
+3/24/2025,Cooke City,The Fin,Natural Avalanche on the Fin,SS-N-R2-D2-I,10000,0,0,,E,800,45.0046,-109.958,Soft slab avalanche,I - Interface between new and old snow,2,2,Wind-Drifted Snow,Natural trigger,centimeters
+3/24/2025,Bridger Range,Saddle Peak,Wind Slab Avalanche on Saddle Peak,SS,9100,0,0,,E,1200,45.7943,-110.936,Soft slab avalanche,,,,Wind-Drifted Snow,,centimeters
+3/22/2025,Southern Madison,Taylor Fork,Triggered avalanche in Taylor Fork,HS-AM,9070,0,0,,N,,44.9442,-111.285,Hard slab avalanche,,,,Persistent Slab,Snowmobile,inches
+3/22/2025,Northern Madison,Buck Ridge,Wind slabs near Buck Ridge,SS-N-R1-D1,9200,0,0,,N,100,45.1719,-111.38,Soft slab avalanche,,1,1,Wind Slab,Natural trigger,inches
+,,,,,,,,,,,,,,,,,,,
+3/22/2025,Cooke City,COOKE CITY,Natural avalanche north of Cooke City,SS-N-R2-D2-O,9000,0,0,,,150,45.0202,-109.938,Soft slab avalanche,O - Old snow,2,2,Persistent Weak Layer,Natural trigger,inches
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+3/19/2025,Southern Madison,Sunlight Basin,Persistent slab avalanche in the Taylor Fork,SS-AM-R2-D2-O,,0,0,,,150,44.9731,-111.31,Soft slab avalanche,O - Old snow,2,2,Persistent Weak Layer,Snowmobile,inches
+3/19/2025,Bridger Range,Saddle Peak,Small wind slab avalanches on Saddle Peak,SS-N-R1-D1-I,9000,0,0,,E,,45.7943,-110.936,Soft slab avalanche,I - Interface between new and old snow,1,1,Wind-Drifted Snow,Natural trigger,inches
+3/17/2025,Cooke City,Goose Lake,Avalanche at Goose Lake,SS-N-R2-D2-I,10800,0,0,,E,450,45.1153,-109.914,Soft slab avalanche,I - Interface between new and old snow,2,2,Wind-Drifted Snow,Natural trigger,centimeters
+3/17/2025,Bridger Range,Fairy Lake,Wind Slab Avalanches in N Bridgers,SS-N-I,,0,0,,E,,45.9043,-110.958,Soft slab avalanche,I - Interface between new and old snow,,,Wind Slab,Natural trigger,centimeters
+3/17/2025,Cooke City,COOKE CITY,Wind Slab Avalanches on Scotch Bonnet and Wolverine,N-R2-D2-I,10000,0,0,,,1500,45.0202,-109.938,,I - Interface between new and old snow,2,2,Wind-Drifted Snow,Natural trigger,inches
+3/16/2025,Lionhead Range,LIONHEAD AREA,Many Wind Slab Avalanches at Lionhead,N-R2-D2-I,9400,0,0,,E,,44.7292,-111.323,,I - Interface between new and old snow,2,2,Wind Slab,Natural trigger,centimeters
+3/16/2025,Northern Madison,Buck Ridge,Small wind slabs on Buck Ridge,SS-AMc-S,9000,0,0,,N,,45.1719,-111.38,Soft slab avalanche,S - Avalanche released within new snow,,,Wind Slab,Snowmobile,centimeters
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+3/16/2025,Bridger Range,BRIDGER RANGE,Isolated Wind Slabs in S. Bridger Range,SS-AS-R1-D1-I,,0,0,,,,45.8512,-110.948,Soft slab avalanche,I - Interface between new and old snow,1,1,Wind Slab,Skier,centimeters
+3/16/2025,Northern Gallatin,Mt Blackmore,"Small Wind Slab avalanche, Blackmore",SS-R1-D1-I,8800,0,0,,N,100,45.4444,-111.004,Soft slab avalanche,I - Interface between new and old snow,1,1,Wind Slab,,centimeters
+,,,,,,,,,,,,,,,,,,,
+3/15/2025,Bridger Range,Frazier Basin,Wind Slabs in Frazier Basin,N-R1,,0,0,,,,45.9233,-110.98,,,,1,Wind Slab,Natural trigger,centimeters
+,,,,,,,,,,,,,,,,,,,
+3/15/2025,Cooke City,Henderson Mountain,Dry Loose avalanches near Cooke,L-AS-D1,9300,0,0,,E,,45.0524,-109.945,Loose-snow avalanche,,1,,Loose Dry,Skier,centimeters
+3/15/2025,Bridger Range,Bridger Peak,Dry loose avalanches in Bridgers,L-AS-R1-D1.5,,0,0,,,,45.7701,-110.94,Loose-snow avalanche,,1.5,1,Loose Dry,Skier,centimeters
+,,,,,,,,,,,,,,,,,,,
+3/14/2025,Cooke City,Hayden Creek,Small Wind Slab Avalanches on Woody Ridge,SS-N-D1,10000,0,0,,,100,44.9952,-109.908,Soft slab avalanche,,1,,Wind-Drifted Snow,Natural trigger,centimeters
+3/14/2025,Cooke City,Crown Butte,small dry loose slides north of Cooke,L-N-R1-D1-S,9500,0,0,,S,,45.0525,-109.962,Loose-snow avalanche,S - Avalanche released within new snow,1,1,Loose Dry,Natural trigger,inches
+3/14/2025,Cooke City,Abiathar Peak,Small storm slabs and dry loose in Cooke,SS-AS,,0,0,,,,44.9756,-110.031,Soft slab avalanche,,,,Storm Slab,Skier,centimeters
+3/14/2025,Cooke City,COOKE CITY,Old Wind Slab Avalanche South of Cooke,SS-N-R2-D2-U,9600,0,0,,E,,45.0202,-109.938,Soft slab avalanche,U - Unknown,2,2,Wind-Drifted Snow,Natural trigger,centimeters
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+3/14/2025,Southern Madison,Taylor Fork,Snowmobiler triggered 3 foot deep slide Sunlight Basin,HS-AMu-R2-D2-O,8800,0,0,,NW,100,44.9772,-111.286,Hard slab avalanche,O - Old snow,2,2,Persistent Slab,Snowmobile,inches
+3/13/2025,Island Park,CENTENNIAL RANGE,Island Park soft slabs,SS-N-R1-D2-I,8800,0,0,,N,300,44.5602,-111.463,Soft slab avalanche,I - Interface between new and old snow,2,1,Storm Slab,Natural trigger,inches
+,,,,,,,,,,,,,,,,,,,
+3/9/2025,Lionhead Range,Lionhead Ridge,recent small wind slabs at Lionhead,SS-N-R1-D1-S,9000,0,0,,E,100,44.7145,-111.318,Soft slab avalanche,S - Avalanche released within new snow,1,1,Wind Slab,Natural trigger,inches
+3/8/2025,Bridger Range,Frazier Basin,Skier triggered Wind Slab Avalanches in Frazier Basin,SS-AS-R2-D1.5-S,7500,1,0,,NE,100,45.9278,-110.962,Soft slab avalanche,S - Avalanche released within new snow,1.5,2,Wind Slab,Skier,inches
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+3/7/2025,Northern Gallatin,Mt Blackmore,Loose avalanches on Blackmore,N-R1-D1,,0,0,,,,45.4444,-111.004,,,1,1,,Natural trigger,centimeters
+3/7/2025,Bridger Range,The Throne,Fresh reactive wind slabs N. Bridgers,SS-ASc-R1-D1-S,8300,0,0,,SE,100,45.8822,-110.952,Soft slab avalanche,S - Avalanche released within new snow,1,1,Wind Slab,Skier,inches
+,,,,,,,,,,,,,,,,,,,
+3/7/2025,Bridger Range,The Throne,small loose snow slides N. Bridgers,L-N-R1-D1-S,8500,0,0,,S,,45.8822,-110.952,Loose-snow avalanche,S - Avalanche released within new snow,1,1,Loose Dry,Natural trigger,centimeters
+3/5/2025,Northern Gallatin,Mt Blackmore,Loose snow avalanches around Blackmore,L-R1-D1,,0,0,,,,45.4444,-111.004,Loose-snow avalanche,,1,1,New Snow,,centimeters
+,,,,,,,,,,,,,,,,,,,
+3/2/2025,Cooke City,Miller Ridge,"Wet Loose Avalanches, W Miller Ridge",WL-N,9500,0,0,,SW,,45.0423,-109.965,Wet loose-snow avalanche,,,,Loose Wet,Natural trigger,centimeters
+,,,,,,,,,,,,,,,,,,,
+3/1/2025,Northern Madison,Beehive Basin,Cornice Fall Avalanche in Beehive,C-ARc-R1-D2,9100,0,0,,E,,45.3,-111.399,Cornice fall,,2,1,Cornice Fall,Snowboarder,inches
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+3/1/2025,Northern Gallatin,Alex Lowe Peak,Cornice Fall Avalanches in upper South Cottonwood,C-N-R1-D1.5,9000,0,0,,N,,45.4272,-111.014,Cornice fall,,1.5,1,Cornice Fall,Natural trigger,centimeters
+,,,,,,,,,,,,,,,,,,,
+3/1/2025,Southern Madison,Taylor Fork,Wet slides in S. Madison,WL-N-R1-D1.5,,0,0,,,,45.0607,-111.272,Wet loose-snow avalanche,,1.5,1,Wet Snow,Natural trigger,centimeters
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+3/1/2025,Bridger Range,Hourglass Chute,Natural Wet Loose Avalanches on solar aspects north of Bridger Bowl,WL-N-R1-D1,,0,0,,,,45.8332,-110.936,Wet loose-snow avalanche,,1,1,Loose Wet,Natural trigger,centimeters
+3/1/2025,Northern Madison,Other place,Wet Loose Avalanche Pioneer Mountain,WL-N-R1-D2,,0,0,,S,,45.6553,-110.558,Wet loose-snow avalanche,,2,1,Loose Wet,Natural trigger,centimeters
+2/28/2025,Lionhead Range,Targhee Creek,Snowmobile triggered 3-5' deep hard slab at Lionhead,HS-AMu-R4-D3-O,9200,0,0,,N,200,44.7413,-111.374,Hard slab avalanche,O - Old snow,3,4,Persistent Slab,Snowmobile,inches
+,,,,,,,,,,,,,,,,,,,
+2/28/2025,Southern Madison,Taylor Fork,Small PWL Avalanche in Carrot Basin,HS-AM-R1-D1-O,9000,0,0,,N,50,45.0607,-111.272,Hard slab avalanche,O - Old snow,1,1,Persistent Weak Layer,Snowmobile,inches
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+2/28/2025,Lionhead Range,Airplane Bowl,Snowmobile triggered slide in Airplane Bowl,HS-AMu-R2-D2-O,9100,0,0,,SE,200,44.725,-111.322,Hard slab avalanche,O - Old snow,2,2,Persistent Slab,Snowmobile,inches
+2/27/2025,Southern Madison,Cabin Creek,Rider triggered slide at Cabin Creek,AM,9000,0,0,,N,,44.8648,-111.22,,,,,,Snowmobile,centimeters
+,,,,,,,,,,,,,,,,,,,
+2/27/2025,Northern Madison,Buck Ridge,Small PWL Avalanche in First Yellow Mule,SS-AMu-R1-D1-O,9000,0,0,,N,20,45.1719,-111.38,Soft slab avalanche,O - Old snow,1,1,Persistent Weak Layer,Snowmobile,inches
+2/26/2025,Northern Madison,Hellroaring Creek,Old slide in hell roaring drainage,SS-R2-D2,,0,0,,E,,44.549,-111.475,Soft slab avalanche,,2,2,,,inches
+,,,,,,,,,,,,,,,,,,,
+2/26/2025,Southern Madison,Taylor Fork,Cornice Fall Triggered Avalanche in Sage Basin,HS-NC-R2-D2-O,9200,0,0,,NE,200,44.9492,-111.309,Hard slab avalanche,O - Old snow,2,2,Cornice Fall,Cornice fall,centimeters
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+2/25/2025,Cooke City,Miller Mtn.,"Rider buried near Cooke City, close call",HS-AMu,,0,0,,,,45.0465,-109.977,Hard slab avalanche,,,,Wind Slab,Snowmobile,centimeters
+,,,,,,,,,,,,,,,,,,,
+2/25/2025,Southern Madison,Taylor Fork,Cornice fall triggered slide in Sunlight Basin,HS-NC-R2-D2.5,9400,0,0,,N,300,44.9706,-111.31,Hard slab avalanche,,2.5,2,Cornice Fall,Cornice fall,centimeters
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+2/25/2025,Cooke City,Crown Butte,Wind slab avalanche north of Crown Butte,SS-R2-D2-I,9600,0,0,,N,150,45.0556,-109.961,Soft slab avalanche,I - Interface between new and old snow,2,2,Wind Slab,,inches
+2/25/2025,Northern Gallatin,Storm Castle,Cornice Fall Wind Slab Avalanche in Storm Castle Creek,SS-NC-R2-D2-I,,0,0,,E,,45.4504,-111.224,Soft slab avalanche,I - Interface between new and old snow,2,2,Wind-Drifted Snow,Cornice fall,centimeters
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+2/24/2025,Cooke City,Lulu Pass,Snowmobile Triggered Avalanche Near Lulu Pass,SS-AMu-R1-D1-I,9700,0,0,,E,,45.0682,-109.957,Soft slab avalanche,I - Interface between new and old snow,1,1,Wind Slab,Snowmobile,centimeters
+2/24/2025,Cooke City,COOKE CITY,Many natural wind slab avalanches and cornice falls,SS-N-R1-D1.5,,0,0,,,,44.9695,-109.963,Soft slab avalanche,,1.5,1,Wind Slab,Natural trigger,inches
+2/24/2025,Northern Madison,Wilson Peak,Old Avalanche N Madison,SS-NC-R2-D2,,0,0,,,150,45.327,-111.325,Soft slab avalanche,,2,2,Cornice Fall,Cornice fall,centimeters
+2/24/2025,Northern Gallatin,Hyalite - main fork,Wet Snow Avalanches Hit Hyalite Road,WL-N-R1-D1-O,,0,0,,W,,45.4472,-110.962,Wet loose-snow avalanche,O - Old snow,1,1,Loose Wet,Natural trigger,centimeters
+2/24/2025,Cooke City,Republic Mountain,Small Wind Slab on Republic Peak,SS-N-R1-D1-I,,0,0,,,,45.0003,-109.954,Soft slab avalanche,I - Interface between new and old snow,1,1,Wind Slab,Natural trigger,centimeters
+2/24/2025,Cooke City,Mount Abundance,Remote triggered persistent slab east of Mt. Abundance,HS-AFr-R3-D2-O,8800,0,0,,NE,400,45.0808,-110.004,Hard slab avalanche,O - Old snow,2,3,Persistent Slab,Foot penetration,centimeters
+2/23/2025,Cooke City,Republic Creek,Skier triggered wind slabs in Republic Creek,SS-AS-R2-D1-I,9800,0,0,,W,30,44.9855,-109.941,Soft slab avalanche,I - Interface between new and old snow,1,2,Wind Slab,Skier,inches
+2/23/2025,Northern Madison,Buck Ridge,Rider-Triggered Wind Slab,SS-AMu-R2-D2,,0,0,,,,45.1719,-111.38,Soft slab avalanche,,2,2,,Snowmobile,inches
+2/22/2025,Cooke City,Mount Abundance,Snowmobile triggered avalanche east of Mt. Abundance,HS-AMr-R3-D2-O,8800,0,0,,NE,,45.0773,-110.021,Hard slab avalanche,O - Old snow,2,3,Persistent Slab,Snowmobile,inches
+2/22/2025,Bridger Range,Hardscrabble Peak,Natural wind slabs in N. Bridgers,HS-N-R2-D1.5-I,9000,0,0,,NE,,45.9151,-110.981,Hard slab avalanche,I - Interface between new and old snow,1.5,2,Wind Slab,Natural trigger,inches
+2/22/2025,Southern Madison,Tepee Basin,Persistent Slab Avalanches Tepee Basin,SS-AMu-R3-D2-O,9000,1,1,,,250,44.9096,-111.194,Soft slab avalanche,O - Old snow,2,3,Persistent Slab,Snowmobile,inches
+,,,,,,,,,,,,,,,,,,,
+2/22/2025,Out of Advisory Area,Other place,Cornice triggered persistent slab in Suce Creek,ACc-R2-D2-O,,0,0,,N,,45.6553,-110.558,,O - Old snow,2,2,Persistent Slab,Cornice fall triggered by human or explosive action,inches
+2/21/2025,Southern Madison,Tepee Basin,Snowmobile Triggered Avalanche and Partial Burial in Tepee Basin,SS-AMu-R2-D2,,1,1,,NE,150,44.9041,-111.185,Soft slab avalanche,,2,2,Persistent Weak Layer,Snowmobile,inches
+2/21/2025,Southern Madison,Taylor Fork,Whumpfs and Shooting Cracks in Sunlight Basin,,,0,0,,,,45.0607,-111.272,,,,,,,centimeters
+2/21/2025,Northern Madison,Gallatin Canyon,Pinwheels and small wet slide in Gallatin Canyon,,,0,0,,,,45.369,-111.175,,,,,,,centimeters
+2/21/2025,Bridger Range,The Throne,Small wet loose slides in Bridgers,WL-N-R1-D1,8000,0,0,,S,,45.8822,-110.952,Wet loose-snow avalanche,,1,1,Loose Wet,Natural trigger,centimeters
+2/21/2025,Southern Madison,Taylor Fork,Snowmobiler triggered avalanches in Taylor Fork,HS-AMr-R2-D2-O,9000,0,0,,SW,125,44.933,-111.324,Hard slab avalanche,O - Old snow,2,2,Persistent Slab,Snowmobile,inches
+2/20/2025,Cooke City,Mt. Zimmer,Wet Loose Avalanche near Mt Zimmer,WL-N-R1-D1,,0,0,,S,,45.117,-109.893,Wet loose-snow avalanche,,1,1,Wet Snow,Natural trigger,centimeters
+,,,,,,,,,,,,,,,,,,,
+2/19/2025,Out of Advisory Area,Black Canyon,Remotely Triggered Avalanche in Black Canyon,SS-AMr-R3-D2-O,8000,0,0,,,,44.478,-111.135,Soft slab avalanche,O - Old snow,2,3,Deep Persistent Slab,Snowmobile,inches
+,,,,,,,,,,,,,,,,,,,
+2/19/2025,Bridger Range,Saddle Peak,"Avalanche on Saddle Peak, Bridgers",L-NC,,0,0,,,,45.7943,-110.936,Loose-snow avalanche,,,,Loose Dry,Cornice fall,centimeters
+2/19/2025,Lionhead Range,Lionhead Ridge,Remotely Triggered Avalanche Lionhead,SS-AMr-R3-D2-O,8600,0,0,,SE,200,44.7145,-111.318,Soft slab avalanche,O - Old snow,2,3,Persistent Slab,Snowmobile,inches
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+2/19/2025,Bridger Range,Frazier Basin,Frazier Basin Avalanches,SS-N,9000,0,0,,S,,45.9233,-110.98,Soft slab avalanche,,,,Wind Slab,Natural trigger,centimeters
+2/19/2025,Cooke City,Mt. Zimmer,Wind Slab Avalanches near Mt Zimmer,SS-N-R1-D1,,0,0,,SW,75,45.117,-109.893,Soft slab avalanche,,1,1,Wind-Drifted Snow,Natural trigger,centimeters
+,,,,,,,,,,,,,,,,,,,
+2/19/2025,Southern Madison,Taylor Fork,PWL and Wind Slab Avalanches in the S Madisons,SS-N-R2-D2,,0,0,,,,45.0607,-111.272,Soft slab avalanche,,2,2,Wind-Drifted Snow,Natural trigger,centimeters
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+2/18/2025,Bridger Range,Saddle Peak,"Cornice triggered natural avalanche, Saddle Peak",SS-NC-R1-D1.5,,0,0,,E,,45.7943,-110.936,Soft slab avalanche,,1.5,1,Wind-Drifted Snow,Cornice fall,inches
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+2/17/2025,Cooke City,Republic Creek,Ski Cut Avalanche in Wyoming Bowl,SS-ASc,,0,0,,,,44.9855,-109.941,Soft slab avalanche,,,,Storm Slab,Skier,centimeters
+2/17/2025,Bridger Range,The Throne,Natural storm slabs northern Bridgers,R2-D2-S,8500,0,0,,E,,45.8822,-110.952,,S - Avalanche released within new snow,2,2,Storm Slab,,centimeters
+2/17/2025,Bridger Range,Wolverine Bowl,Small storm slabs Bridger Ridge,SS-N-R1-D1.5,8000,0,0,,E,,45.8301,-110.934,Soft slab avalanche,,1.5,1,Storm Slab,Natural trigger,inches
+,,,,,,,,,,,,,,,,,,,
+2/17/2025,Bridger Range,The Ramp,Storm snow instabilities,SS-N-R2-D2-S,,0,0,,,,45.8288,-110.931,Soft slab avalanche,S - Avalanche released within new snow,2,2,Storm Slab,Natural trigger,centimeters
+2/17/2025,Northern Madison,Middle Basin,Small Wind Slab Avalanche On Middle Peak,SS-ASc-R1-D1-S,,0,0,,E,,45.3374,-111.381,Soft slab avalanche,S - Avalanche released within new snow,1,1,Storm Slab,Skier,centimeters
+2/17/2025,Northern Gallatin,Mt Blackmore,"Wind slabs, cornice collapses on Mt. Blackmore",SS-NCc-R1-D1,10000,0,0,,NE,,45.4444,-111.004,Soft slab avalanche,,1,1,Wind Slab,Cornice fall,centimeters
+2/17/2025,Cooke City,Republic Creek,Natural Avalanche Republic Creek,SS-N-R2-D2-S,9200,0,0,,E,,44.9855,-109.941,Soft slab avalanche,S - Avalanche released within new snow,2,2,Storm Slab,Natural trigger,centimeters
+2/17/2025,Bridger Range,The Ramp,Intentionally Triggered Avalanche on Ramp,SS-ASc-S,,0,0,,,,45.8288,-110.931,Soft slab avalanche,S - Avalanche released within new snow,,,Storm Slab,Skier,inches
+2/16/2025,Northern Gallatin,Lick Creek,Intentionally triggered soft slab avalanches in Lick Crk,SS-ASc-R1-D1-I,8129,0,0,,NW,,45.4658,-110.951,Soft slab avalanche,I - Interface between new and old snow,1,1,Storm Slab,Skier,centimeters
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+2/16/2025,Lionhead Range,LIONHEAD AREA,Wind Slab/Persistent Slab Avalanche in Lionhead,AM,,0,0,,,,44.7254,-111.332,,,,,Wind-Drifted Snow,Snowmobile,centimeters
+2/16/2025,Cooke City,Republic Creek,Soft slab avalanche in Republic Creek,SS-AS-D1,9000,0,0,,E,20,44.9855,-109.941,Soft slab avalanche,,1,,Storm Slab,Skier,inches
+2/16/2025,Northern Gallatin,Elephant Mountain,Storm Slab Avalanche between Blackmore and Elephant,SS-ASu-R1-D1,,0,0,,,,45.4036,-111.031,Soft slab avalanche,,1,1,Storm Slab,Skier,inches
+2/16/2025,Northern Madison,Buck Ridge,PWL Avalanche in Muddy Creek,SS-R3-D2-O,8700,0,0,,E,400,45.1719,-111.38,Soft slab avalanche,O - Old snow,2,3,Persistent Weak Layer,,centimeters
+2/15/2025,Northern Madison,Buck Ridge,Snowmobile triggered avalanche Buck Ridge,SS-AMu-R2-D2-S,,0,0,,,,45.1719,-111.38,Soft slab avalanche,S - Avalanche released within new snow,2,2,Storm Slab,Snowmobile,centimeters
+2/15/2025,Cooke City,Hayden Creek,Many Wind Slab Avalanches Hayden Creek,SS-N-R2-D2-I,9800,0,0,,E,400,44.9952,-109.908,Soft slab avalanche,I - Interface between new and old snow,2,2,Wind Slab,Natural trigger,inches
+2/15/2025,Cooke City,Sheep Creek,Dry Loose Snow Avalanche Ghost Couloir,L-N-R1-D1-S,,0,0,,,200,45.0344,-109.984,Loose-snow avalanche,S - Avalanche released within new snow,1,1,Loose Dry,Natural trigger,centimeters
+2/14/2025,Northern Gallatin,Other place,Small wind slab avalanches in south cottonwood,SS-AS-R1-D1,,0,0,,,200,45.6553,-110.558,Soft slab avalanche,,1,1,Wind-Drifted Snow,Skier,inches
+2/13/2025,Northern Gallatin,NORTHERN GALLATIN RANGE,Wind Slab Avalanche in Hyalite,SS-N-R1-D1,7500,0,0,,W,150,45.4415,-110.954,Soft slab avalanche,,1,1,Wind-Drifted Snow,Natural trigger,inches
+2/13/2025,Lionhead Range,Lionhead Ridge,Small slide in Lionhead,AMu-R1-D1,,0,0,,,,44.7145,-111.318,,,1,1,,Snowmobile,centimeters
+2/13/2025,Southern Madison,Taylor Fork,Wind Slab avalanche at Taylor Fork,HS-N-R1-D1-S,8130,0,0,,E,40,45.0607,-111.272,Hard slab avalanche,S - Avalanche released within new snow,1,1,Wind Slab,Natural trigger,inches
+2/13/2025,Northern Gallatin,Mt Blackmore,Wind Slab Avalanche on East Face of Mt Blackmore,SS-ASu-R1-D1,9850,0,0,,E,100,45.4596,-111.002,Soft slab avalanche,,1,1,Wind-Drifted Snow,Skier,inches
+2/13/2025,Northern Gallatin,,Small wind slabs in Hyalite,SS-N-D1,,0,0,,,,,,Soft slab avalanche,,1,,Wind Slab,Natural trigger,centimeters
+2/13/2025,Southern Madison,Sunlight Basin,Small Wind Slab Taylor Fork,SS-N-R1-D1,9150,0,0,,E,50,44.9731,-111.31,Soft slab avalanche,,1,1,Wind Slab,Natural trigger,centimeters
+,,,,,,,,,,,,,,,,,,,
+2/12/2025,Cooke City,Mineral Mountain,Cornice Triggered Avalanche on Mineral Mountain,SS-NC-R3-D2,10400,0,0,,E,1700,45.0303,-109.998,Soft slab avalanche,,2,3,,Cornice fall,centimeters
+2/12/2025,Northern Gallatin,Storm Castle,"Wind Slab Avalanches, Storm Castle Creek",SS-R1-D1,,0,0,,,,45.4234,-111.125,Soft slab avalanche,,1,1,Wind-Drifted Snow,,centimeters
+2/11/2025,Bridger Range,Frazier Basin,Wind Slab Avalanche North Bridgers,SS-N-R2-D1.5,9200,0,0,,N,500,45.9233,-110.98,Soft slab avalanche,,1.5,2,Wind Slab,Natural trigger,centimeters
+,,,,,,,,,,,,,,,,,,,
+2/9/2025,Cooke City,Scotch Bonnet,Snowboarder triggered wind slabs (2) near Cooke,SS-AS-R1-D2-S,9500,0,0,,SE,500,45.0733,-109.948,Soft slab avalanche,S - Avalanche released within new snow,2,1,Wind Slab,Skier,inches
+,,,,,,,,,,,,,,,,,,,
+2/9/2025,Out of Advisory Area,,Two Rider triggered slides in Gravelly Range,SS-AM-R2-D2,,0,0,,,200,44.8502,-111.767,Soft slab avalanche,,2,2,Wind Slab,Snowmobile,inches
+2/9/2025,Cooke City,Wolverine Peak,Natural wind slab avalanche near Cooke,HS-N-R1-D1.5-S,9900,0,0,,E,200,45.053,-110.01,Hard slab avalanche,S - Avalanche released within new snow,1.5,1,Wind Slab,Natural trigger,inches
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+2/9/2025,Cooke City,Zimmer Creek,Wind Slab Avalanches near Zimmer Creek,SS-R1-D1,,0,0,,,,45.0999,-109.884,Soft slab avalanche,,1,1,Wind-Drifted Snow,,centimeters
+2/9/2025,Southern Madison,Taylor Fork,Persistent Slab Avalanches in Taylor Fork,SS-AM-R2-D2-O,9200,0,0,,,100,45.0607,-111.272,Soft slab avalanche,O - Old snow,2,2,Persistent Slab,Snowmobile,centimeters
+,,,,,,,,,,,,,,,,,,,
+2/9/2025,Bridger Range,Wolverine Bowl,Wind Slab Avalanche in the Bridgers,SS-N-R2-D1.5,8400,0,0,,E,800,45.8301,-110.934,Soft slab avalanche,,1.5,2,Wind Slab,Natural trigger,inches
+2/9/2025,Lionhead Range,LIONHEAD AREA,Small rider triggered Avalanche Lionhead,SS-AM-R1-D1,,0,0,,S,75,44.7292,-111.323,Soft slab avalanche,,1,1,,Snowmobile,inches
+2/9/2025,Cooke City,Republic Creek,Wind Slab Avalanche in Republic Creek.,SS-N-R1-D1.5,10100,0,0,,SE,,44.9855,-109.941,Soft slab avalanche,,1.5,1,Wind-Drifted Snow,Natural trigger,centimeters
+2/8/2025,Cooke City,Round Lake,Soft Slab Avalanche near Round Lake,SS-AS-R1-D1,9500,0,0,,SE,100,45.0745,-109.907,Soft slab avalanche,,1,1,Storm Slab,Skier,inches
+,,,,,,,,,,,,,,,,,,,
+2/8/2025,Northern Gallatin,,Wind slab avalanches in the northern gallatin,SS-ASu-R1-D1,7800,0,0,,NW,,45.5987,-111.033,Soft slab avalanche,,1,1,Wind-Drifted Snow,Skier,centimeters
+2/7/2025,Northern Gallatin,Hyalite - main fork,Soft Slab Avalanches in Hyalite,SS-AFu-R1-D1,,0,0,,W,,45.4472,-110.962,Soft slab avalanche,,1,1,Storm Slab,Foot penetration,inches
+,,,,,,,,,,,,,,,,,,,
+2/7/2025,Bridger Range,The Throne,Shallow soft slabs in Bridgers,SS-AFr-R2-D1-S,7500,0,0,,N,10,45.8822,-110.952,Soft slab avalanche,S - Avalanche released within new snow,1,2,Wind Slab,Foot penetration,inches
+2/5/2025,Bridger Range,Ross Peak,Reactive Storm Slabs near Upper Brackett Creek,SS-ASr-R1-D1,7200,0,0,,SE,,45.8627,-110.936,Soft slab avalanche,,1,1,New Snow,Skier,inches
+,,,,,,,,,,,,,,,,,,,
+2/5/2025,Northern Gallatin,Mt Ellis,Reactive Storm Slabs on Mount Ellis,SS-N,,0,0,,,,45.5777,-110.955,Soft slab avalanche,,,,New Snow,Natural trigger,centimeters
+2/5/2025,Bridger Range,Wolverine Bowl,Natural Avalanches in Wolverine Bowl,SS-N,,0,0,,E,,45.8301,-110.934,Soft slab avalanche,,,,New Snow,Natural trigger,centimeters
+2/4/2025,Lionhead Range,Lionhead Ridge,Natural and Snowmobile Triggered Avalanches at Lionhead,SS,,0,0,,,,44.7145,-111.318,Soft slab avalanche,,,,,,centimeters
+2/4/2025,Bridger Range,Fairy Lake,Small soft slab avalanches near Fairy Lake,SS-N-D1,7500,0,0,,E,,45.9043,-110.958,Soft slab avalanche,,1,,Wind-Drifted Snow,Natural trigger,centimeters
+2/4/2025,Cooke City,COOKE CITY,Recent Avalanches near Cooke City,SS-N-R2-D2,,0,0,,,,45.0202,-109.938,Soft slab avalanche,,2,2,Wind-Drifted Snow,Natural trigger,centimeters
+2/4/2025,Bridger Range,Saddle Peak,Skier Triggered Avalanche Saddle Peak,SS-ASu-R1-D1.5,,0,0,,NE,400,45.7943,-110.936,Soft slab avalanche,,1.5,1,Wind Slab,Skier,centimeters
+2/3/2025,Northern Madison,Buck Ridge,Recent Wind Slab Avalanches in 2nd Yellow Mule,SS-N-R1-D1,,0,0,,,,45.1719,-111.38,Soft slab avalanche,,1,1,Wind-Drifted Snow,Natural trigger,centimeters
+,,,,,,,,,,,,,,,,,,,
+2/2/2025,Northern Gallatin,Mt Blackmore,Several Older Wind Slab Avalanches on Blackmore,SS-N-R2-D1.5-S,9600,0,0,,E,400,45.4444,-111.004,Soft slab avalanche,S - Avalanche released within new snow,1.5,2,Wind Slab,Natural trigger,centimeters
+2/2/2025,Cooke City,Round Lake,Small wind slab avalanches near Round Lake,SS-N-R1-D1,,0,0,,,,45.0745,-109.907,Soft slab avalanche,,1,1,Wind-Drifted Snow,Natural trigger,centimeters
+2/1/2025,Cooke City,COOKE CITY,Small wind slab avalanche north of Cooke City,SS-N-R1-D1,9200,0,0,,NW,,45.0202,-109.938,Soft slab avalanche,,1,1,Wind-Drifted Snow,Natural trigger,centimeters
+2/1/2025,Northern Gallatin,Mt Blackmore,Small Loose Snow Avalanches in South Cottonwood Basin,SS-NC-R1-D1,,0,0,,,,45.4298,-111,Soft slab avalanche,,1,1,Wind-Drifted Snow,Cornice fall,centimeters
+2/1/2025,Northern Madison,Buck Ridge,Wind Slab Avalanche near Buck Weather Station,SS-AMc-R1-D1,,0,0,,,40,45.1628,-111.351,Soft slab avalanche,,1,1,,Snowmobile,inches
+1/31/2025,Northern Gallatin,Mt Blackmore,Small windslabs on Mt. Blackmore,HS-N-R1-D1,,0,0,,,,45.4444,-111.004,Hard slab avalanche,,1,1,,Natural trigger,centimeters
+1/30/2025,Island Park,Two Top,Point releases onTwo Top,WL-N-R1-D1,,0,0,,,,44.6249,-111.259,Wet loose-snow avalanche,,1,1,,Natural trigger,centimeters
+1/29/2025,Cooke City,Sheep Creek,Wet loose avalanches in Sheep Creek,WL-N-R1-D1,,0,0,,S,,45.0344,-109.984,Wet loose-snow avalanche,,1,1,Wet Snow,Natural trigger,centimeters
+1/28/2025,Southern Madison,Taylor Fork,Wind Slab avalanche on Woodward Mtn.,HS-N-R2-D2,,0,0,,NE,,45.0607,-111.272,Hard slab avalanche,,2,2,,Natural trigger,inches
+,,,,,,,,,,,,,,,,,,,
+1/27/2025,Northern Gallatin,Hyalite - main fork,Wind Slab Avalanche in Hyalite,SS-N-R1-D1,,0,0,,E,,45.4472,-110.962,Soft slab avalanche,,1,1,,Natural trigger,centimeters
+1/26/2025,Bridger Range,Playground,Shooting Cracks in the Bridgers,,,0,0,,,,45.8426,-110.929,,,,,Wind Slab,,centimeters
+1/26/2025,Bridger Range,Playground,Small wind slab avalanche in the Playground,SS-ASu-R1-D1-I,,0,0,,NE,50,45.8436,-110.941,Soft slab avalanche,I - Interface between new and old snow,1,1,Wind Slab,Skier,centimeters
+1/26/2025,Northern Gallatin,Alex Lowe Peak,Wind Slab Avalanche on Alex Lowe peak,SS-ASu-R1-D1,,0,0,,NW,20,45.4272,-111.014,Soft slab avalanche,,1,1,Wind-Drifted Snow,Skier,inches
+1/24/2025,Northern Gallatin,Hyalite - main fork,Touchy Storm Slab Avalanches in Hyalite,SS-R1-D1-S,,0,0,,,,45.4472,-110.962,Soft slab avalanche,S - Avalanche released within new snow,1,1,New Snow,,inches
+1/24/2025,Northern Madison,Cedar Mtn.,Recent avalanche activity in Cedar Basin,SS-N-I,,0,0,,,,45.2268,-111.512,Soft slab avalanche,I - Interface between new and old snow,,,Storm Slab,Natural trigger,centimeters
+1/24/2025,Cooke City,Hayden Creek,Large Persistent Slab Avalanche in Hayden Creek,SS-N-R3-D3-O,,0,0,,NE,,44.9952,-109.908,Soft slab avalanche,O - Old snow,3,3,Persistent Weak Layer,Natural trigger,centimeters
+1/23/2025,Northern Gallatin,Divide Cirque,Thin wind slab in Hyalite,R1-D1,9800,0,0,,SE,,45.3934,-110.969,,,1,1,Wind Slab,,inches
+1/23/2025,Cooke City,Republic Creek,Deep Persistent Slab Avalanche up Republic Creek,SS-N-R3-D3-O,9800,0,0,,NW,800,44.956,-109.944,Soft slab avalanche,O - Old snow,3,3,Persistent Weak Layer,Natural trigger,inches
+1/21/2025,Cooke City,Woody Ridge,Old persistent slab avalanche up Republic Creek,SS-N-R3-D3-O,10000,0,0,,NE,,44.9595,-109.935,Soft slab avalanche,O - Old snow,3,3,Persistent Slab,Natural trigger,inches
+1/19/2025,Northern Gallatin,Maid of the Mist,Thin wind slab in Maid of the Mist,SS-AS-R1-D1-I,,0,0,,,20,45.4164,-110.97,Soft slab avalanche,I - Interface between new and old snow,1,1,Wind Slab,Skier,inches
+1/19/2025,Southern Madison,Cabin Creek,Long shooting cracks in Cabin Creek,,,0,0,,SW,,44.8949,-111.228,,,,,,,centimeters
+,,,,,,,,,,,,,,,,,,,
+1/19/2025,Cooke City,Henderson Mountain,Wind Slab on E Henderson,N-R1-D2-O,10000,0,0,,NE,,45.0524,-109.945,,O - Old snow,2,1,Wind Slab,Natural trigger,inches
+1/19/2025,Bridger Range,The Ramp,Small soft slab avalanche south of Bradley's Meadow,SS-ASc-R1-D1-I,7800,0,0,,S,40,45.8288,-110.931,Soft slab avalanche,I - Interface between new and old snow,1,1,Wind-Drifted Snow,Skier,inches
+1/19/2025,Bridger Range,Fairy Lake,Whumphs at Fairy Lake,,7000,0,0,,,,45.909,-110.958,,,,,,,centimeters
+1/16/2025,Northern Gallatin,Mt Blackmore,Soft Slab Avalanche on North Face of Blackmore,SS-N,,0,0,,N,,45.4444,-111.004,Soft slab avalanche,,,,Wind-Drifted Snow,Natural trigger,inches
+1/15/2025,Southern Madison,Red Mountain,Avalanche on Red Mountain,HS-N-R2-D2-O,9800,0,0,,E,,44.9474,-111.156,Hard slab avalanche,O - Old snow,2,2,Persistent Slab,Natural trigger,centimeters
+,,,,,,,,,,,,,,,,,,,
+1/15/2025,Northern Gallatin,Hyalite - main fork,Wet Loose Avalanches in Hyalite,WL-N-R1-D1,,0,0,,,,45.4347,-110.963,Wet loose-snow avalanche,,1,1,,Natural trigger,centimeters
+,,,,,,,,,,,,,,,,,,,
+1/13/2025,Southern Madison,Bacon Rind,Whumpfing and Cracking at Bacon Rind,,,0,0,,,,44.9609,-111.1,,,,,,,centimeters
+1/13/2025,Cooke City,Woody Ridge,Persistent Slab Avalanche on Woody Ridge,HS-N-R2-D2.5-O,9600,0,0,,NW,1100,44.994,-109.922,Hard slab avalanche,O - Old snow,2.5,2,Persistent Weak Layer,Natural trigger,inches
+1/13/2025,Southern Madison,Bacon Rind,Human triggered avalanche near Bacon Rind,SS-AS-R2-D1.5-O,7200,0,0,,SW,100,44.9842,-111.077,Soft slab avalanche,O - Old snow,1.5,2,Persistent Slab,Skier,inches
+,,,,,,,,,,,,,,,,,,,
+1/12/2025,Lionhead Range,LIONHEAD AREA,Large Collapse at Lionhead,,,0,0,,,,44.7292,-111.323,,,,,Persistent Slab,,centimeters
+,,,,,,,,,,,,,,,,,,,
+1/12/2025,Cooke City,Woody Ridge,4-6' deep persistent slab avalanche on Woody Ridge,HS-N-R3-D3-O,10000,0,0,,W,1000,44.9701,-109.927,Hard slab avalanche,O - Old snow,3,3,Persistent Weak Layer,Natural trigger,inches
+1/12/2025,Cooke City,Mt. Zimmer,Small Soft Slab Avalanche near Mount Zimmer Yurt,SS,,0,0,,,,45.117,-109.893,Soft slab avalanche,,,,New Snow,,inches
+1/11/2025,Lionhead Range,Two Top,Wind slab avalanche on Two Top,SS-N-R1-D1,,0,0,,NE,,44.6232,-111.258,Soft slab avalanche,,1,1,Wind-Drifted Snow,Natural trigger,centimeters
+1/11/2025,Northern Gallatin,Mt Blackmore,Storm Slab Avalanche on Mt Blackmore,SS-N-R2-D2,8700,0,0,,N,300,45.4468,-110.989,Soft slab avalanche,,2,2,New Snow,Natural trigger,inches
+,,,,,,,,,,,,,,,,,,,
+1/10/2025,Northern Gallatin,Mt Blackmore,Wind slabs on Mt Blackmore,SS,,0,0,,N,,45.4445,-111.003,Soft slab avalanche,,,,Wind Slab,,centimeters
+,,,,,,,,,,,,,,,,,,,
+1/10/2025,Bridger Range,Hardscrabble Peak,"Hardscrabble Peak, natural avalanche",SS-N-R2-D2,9200,0,0,,E,,45.9151,-110.981,Soft slab avalanche,,2,2,Wind-Drifted Snow,Natural trigger,inches
+1/9/2025,Cooke City,Round Lake,New Snow Avalanches North of Cooke City,SS-N-R2-D2-O,,0,0,,,,45.0746,-109.907,Soft slab avalanche,O - Old snow,2,2,,Natural trigger,centimeters
+1/9/2025,Cooke City,Mount Abundance,Natural thick wind slab on Henderson Mtn.,HS-N-R2-D2-S,9800,0,0,,NE,300,45.0773,-110.021,Hard slab avalanche,S - Avalanche released within new snow,2,2,Wind Slab,Natural trigger,inches
+1/9/2025,Northern Gallatin,Mt Blackmore,Natural storm slab avalanches Mt Blackmore,SS-N-R1-D1.5-S,9500,0,0,,,,45.4444,-111.004,Soft slab avalanche,S - Avalanche released within new snow,1.5,1,Storm Slab,Natural trigger,centimeters
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+1/9/2025,Cooke City,Mount Abundance,Small remote triggered pocket on Abundance,HS-AMr-R1-D1,9100,0,0,,SE,35,45.0773,-110.021,Hard slab avalanche,,1,1,,Snowmobile,inches
+1/9/2025,Cooke City,Mount Abundance,4-6 foot deep Persistent slab on Mt. Abundance,HS-R2-D2-O,9500,0,0,,SE,,45.0773,-110.021,Hard slab avalanche,O - Old snow,2,2,Persistent Slab,,centimeters
+1/9/2025,Cooke City,Henderson Mountain,4-6'+ deep Persistent slabs (2) on Henderson Mtn.,HS-N-R2-D2-O,9900,0,0,,NE,300,45.0524,-109.945,Hard slab avalanche,O - Old snow,2,2,Persistent Slab,Natural trigger,inches
+1/8/2025,Bridger Range,BRIDGER RANGE,Skier Triggered Wind Slab Northern Bridgers,SS-ASu-S,8000,0,0,,NE,75,45.8512,-110.948,Soft slab avalanche,S - Avalanche released within new snow,,,Wind-Drifted Snow,Skier,inches
+1/8/2025,Bridger Range,Texas Meadow,Natural Avalanches above Texas Meadows,SS-N-R2-D1-S,8000,0,0,,E,,45.8406,-110.933,Soft slab avalanche,S - Avalanche released within new snow,1,2,New Snow,Natural trigger,centimeters
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+1/7/2025,Cooke City,Mount Abundance,3-6' deep avalanches near Cooke,HS-N-R1-D2-O,10000,0,0,,,,45.0773,-110.021,Hard slab avalanche,O - Old snow,2,1,,Natural trigger,centimeters
+1/7/2025,Bridger Range,Bradley Meadow,Skier triggered avalanche north of Bridger boundary,SS-AS-R2-D1,,0,0,,,,45.83,-110.928,Soft slab avalanche,,1,2,,Skier,centimeters
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+1/7/2025,Out of Advisory Area,Emigrant Peak,Emigrant Gulch natural avalanche,SS-N-R2-D2.5-O,9500,0,0,,NE,,45.263,-110.707,Soft slab avalanche,O - Old snow,2.5,2,Persistent Slab,Natural trigger,centimeters
+,,,,,,,,,,,,,,,,,,,
+1/7/2025,Cooke City,Mount Abundance,Persistent slab on Fisher Mtn.,HS-N-R3-D2.5-O,10000,0,0,,N,400,45.0773,-110.021,Hard slab avalanche,O - Old snow,2.5,3,Persistent Slab,Natural trigger,inches
+,,,,,,,,,,,,,,,,,,,
+1/6/2025,Bridger Range,Argentina Bowl,Skier triggered avalanche in Argentina Bowl,SS-ASc-R2-D2.5-S,9000,0,0,,E,1500,45.7875,-110.935,Soft slab avalanche,S - Avalanche released within new snow,2.5,2,Wind Slab,Skier,inches
+,,,,,,,,,,,,,,,,,,,
+1/6/2025,Butte Area,Other place,Remote Trigger Avalanche near Sugar Loaf (Anaconda),SS-ASr-D2-I,,0,0,,N,200,46.0291,-112.972,Soft slab avalanche,I - Interface between new and old snow,2,,Wind-Drifted Snow,Skier,centimeters
+1/6/2025,Southern Madison,Cabin Creek,Fresh avalanches in Cabin Ck,,,0,0,,,,44.8949,-111.228,,,,,,,centimeters
+,,,,,,,,,,,,,,,,,,,
+1/5/2025,Southern Madison,Bacon Rind,Avalanches at Bacon Rind,SS-N-R3-D2-O,8800,0,0,,N,1000,44.9609,-111.1,Soft slab avalanche,O - Old snow,2,3,Persistent Weak Layer,Natural trigger,inches
+1/5/2025,Northern Gallatin,Mt Blackmore,Natural Avalanche North Face Blackmore,SS-N-R2-D2-O,9800,0,0,,N,,45.4444,-111.004,Soft slab avalanche,O - Old snow,2,2,Persistent Slab,Natural trigger,centimeters
+1/5/2025,Northern Gallatin,Maid of the Mist,Avalanche Below Maid of the Mist,SS-R2-D2,8200,0,0,,E,,45.4164,-110.97,Soft slab avalanche,,2,2,,,centimeters
+1/5/2025,Southern Madison,Taylor Fork,Small avalanches along Carrot Basin Headwall in Taylor Fork,SS-R1-D1.5-O,8500,0,0,,E,50,45.0607,-111.272,Soft slab avalanche,O - Old snow,1.5,1,Persistent Weak Layer,,inches
+1/5/2025,Lionhead Range,Hebgen Lake,Intentional Skier Triggered Avalanche near Hebgen,SS-ASc-G,8700,0,0,,E,,44.8404,-111.341,Soft slab avalanche,G - Ground,,,Persistent Weak Layer,Skier,centimeters
+1/5/2025,Southern Gallatin,Specimen Creek,Remotely Triggered Avalanche in Specimen Creek,,,0,0,,,,45.0265,-111.048,,,,,,,centimeters
+,,,,,,,,,,,,,,,,,,,
+1/4/2025,Lionhead Range,LIONHEAD AREA,Remote Triggered Avalanche in Lionhead,SS-AMr-R2-D2.5-O,9340,0,0,,SE,400,44.7269,-111.318,Soft slab avalanche,O - Old snow,2.5,2,Persistent Weak Layer,Snowmobile,inches
+,,,,,,,,,,,,,,,,,,,
+1/4/2025,Lionhead Range,LIONHEAD AREA,More avalanches at Lionhead,HS-R2-D2-O,8600,0,0,,NE,150,44.7292,-111.323,Hard slab avalanche,O - Old snow,2,2,Persistent Slab,,inches
+1/4/2025,Island Park,Mt Jefferson Bowl,Wind Slab Avalanche Jefferson Bowl,N-R2-D2,9500,0,0,,NE,,44.5591,-111.483,,,2,2,Wind Slab,Natural trigger,centimeters
+1/4/2025,Bridger Range,The Ramp,Skier triggered large Wind Slab on the Ramp,HS-ASu-R1-D1-I,8500,0,0,,E,,45.828,-110.933,Hard slab avalanche,I - Interface between new and old snow,1,1,Wind-Drifted Snow,Skier,inches
+1/4/2025,Lionhead Range,Lionhead Ridge,Avalanche Airplane Bowl Lionhead,SS-R3-D2-O,9300,0,0,,SE,400,44.7145,-111.318,Soft slab avalanche,O - Old snow,2,3,Persistent Slab,,centimeters
+1/4/2025,Bridger Range,BRIDGER RANGE,Natural Avalanche Argentina Bowl,N-R2-D2.5,8600,0,0,,NE,700,45.8512,-110.948,,,2.5,2,Storm Slab,Natural trigger,inches
+1/4/2025,Cooke City,Republic Creek,Large natural avalanche south of Cooke,HS-N-R2-D2.5-O,,0,0,,,,44.9855,-109.941,Hard slab avalanche,O - Old snow,2.5,2,,Natural trigger,centimeters
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+1/3/2025,Southern Madison,Cabin Creek,Small cut bank slide Teepee Creek Trail,SS-AM,8200,0,0,,S,,44.8528,-111.166,Soft slab avalanche,,,,Persistent Slab,Snowmobile,centimeters
+1/3/2025,Southern Madison,Other place,Whumpfs and Shooting Cracks in the S Madisons,,,0,0,,,,45.1247,-111.269,,,,,,,centimeters
+1/3/2025,Southern Madison,Cabin Creek,Hwy 191 Avalanche 3-Jan-25,SS-AV-R4-D1-O,7000,0,0,,E,30,44.832,-111.078,Soft slab avalanche,O - Old snow,1,4,Persistent Slab,Vehicle ( specify vehicle in comments),centimeters
+,,,,,,,,,,,,,,,,,,,
+1/3/2025,Bridger Range,The Throne,Soft Slabs on Throne,SS-N,,0,0,,E,,45.8822,-110.952,Soft slab avalanche,,,,Storm Slab,Natural trigger,inches
+1/3/2025,Bridger Range,Ross Peak,Small Storm Snow Avalanches in Brackett Creek,SS-N-R1-D1,6000,0,0,,S,,45.8601,-110.949,Soft slab avalanche,,1,1,New Snow,Natural trigger,inches
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+1/3/2025,Northern Madison,Cedar Mtn.,Natural Avalanches on Cedar Mountain. NE and E aspects,N-R2-D2,9400,0,0,,,,45.2268,-111.512,,,2,2,,Natural trigger,centimeters
+1/3/2025,Cooke City,Sheep Mountain,Natural Avalanche E Face of Sheep Mountain,SS-N-R2-D2-G,,0,0,,E,250,45.0722,-109.928,Soft slab avalanche,G - Ground,2,2,Persistent Weak Layer,Natural trigger,inches
+1/3/2025,Northern Madison,Buck Ridge,Snowmobile Triggered Avalanche at Buck Ridge,SS-AMu,,0,0,,,,45.1719,-111.38,Soft slab avalanche,,,,,Snowmobile,centimeters
+1/2/2025,Cooke City,Miller Ridge,Crown on Miller Ridge,N,,0,0,,,,45.0423,-109.965,,,,,,Natural trigger,centimeters
+1/1/2025,Bridger Range,Northern Bridgers,Large storm slab avalanches in North Bridgers,SS-N-R2-D2-S,7800,0,0,,,,45.8742,-110.951,Soft slab avalanche,S - Avalanche released within new snow,2,2,Storm Slab,Natural trigger,centimeters
+1/1/2025,Northern Madison,Buck Ridge,Recent human triggered slide Buck Ridge,SS-R1-D1-O,9300,0,0,,NE,50,45.1675,-111.361,Soft slab avalanche,O - Old snow,1,1,Persistent Slab,,centimeters
+1/1/2025,Northern Gallatin,Maid of the Mist,"Small, loose snow avalanches in Maid of the Mist",L-N-D1,9200,0,0,,N,10,45.4164,-110.97,Loose-snow avalanche,,1,,New Snow,Natural trigger,centimeters
+1/1/2025,Cooke City,Daisy Pass,Storm slab Avalanches near Cooke,SS-R3-D2,9800,0,0,,W,300,45.059,-109.956,Soft slab avalanche,,2,3,Storm Slab,,inches
+,,,,,,,,,,,,,,,,,,,
+12/31/2024,Southern Madison,Taylor Fork,Small snowmobile triggered avalanche in Taylor Fork,SS-AMu-R1-D1-O,,0,0,,,15,45.0607,-111.272,Soft slab avalanche,O - Old snow,1,1,Persistent Slab,Snowmobile,inches
+,,,,,,,,,,,,,,,,,,,
+12/31/2024,Cooke City,Wolverine Peak,Sunset Peak natural - Cooke City,HS-N-R2-D2.5-O,9800,0,0,,NE,,45.0469,-110.001,Hard slab avalanche,O - Old snow,2.5,2,Persistent Slab,Natural trigger,centimeters
+12/30/2024,Cooke City,Henderson Mountain,"large natural avalanche, NE Mt. Henderson",HS-N-R4-D2-O,10090,0,0,,NE,,45.0524,-109.945,Hard slab avalanche,O - Old snow,2,4,Persistent Weak Layer,Natural trigger,inches
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+12/30/2024,Southern Madison,Cabin Creek,Avalanches in Taylor Fork,SS-N-R2-D2-G,9400,0,0,,NE,200,44.8949,-111.228,Soft slab avalanche,G - Ground,2,2,Persistent Weak Layer,Natural trigger,inches
+12/30/2024,Bridger Range,The Throne,Numerous dry loose and slab avalanches near the Throne,SS-N-D2,,0,0,,,,45.8822,-110.952,Soft slab avalanche,,2,,,Natural trigger,centimeters
+,,,,,,,,,,,,,,,,,,,
+12/30/2024,Northern Madison,Beehive Basin,Avalanche in Beehive Basin,SS-ASc-R3-D1-I,8200,0,0,,W,50,45.3407,-111.391,Soft slab avalanche,I - Interface between new and old snow,1,3,Storm Slab,Skier,inches
+12/30/2024,Bridger Range,Bradley Meadow,Avalanche on Bradleys Meadow Caught and Carried,ASu,7800,1,0,,SE,,45.8322,-110.928,,,,,,Skier,inches
+12/30/2024,Bridger Range,The Ramp,Storm slabs on the Ramp,SS,,0,0,,,,45.8288,-110.931,Soft slab avalanche,,,,Storm Slab,,centimeters
+12/30/2024,Cooke City,Sheep Creek,Sheep Creek,SS-R1-D1,,0,0,,N,,45.0344,-109.984,Soft slab avalanche,,1,1,Storm Slab,,centimeters
+12/30/2024,Lionhead Range,Quake Lake,Avalanche above Quake Lake,SS-N-R3-D2-O,7200,0,0,,N,400,44.8524,-111.392,Soft slab avalanche,O - Old snow,2,3,Persistent Slab,Natural trigger,centimeters
+12/30/2024,Northern Gallatin,Flanders Creek,Wind slabs in Flanders,SS-AFu-R1-D1,7600,0,0,,,35,45.4521,-110.926,Soft slab avalanche,,1,1,Wind-Drifted Snow,Foot penetration,inches
+12/30/2024,Northern Madison,Buck Ridge,Natural Avalanche on 1st Yellowmule,SS-N-R1-D1.5,,0,0,,,100,45.172,-111.385,Soft slab avalanche,,1.5,1,Persistent Weak Layer,Natural trigger,inches
+12/29/2024,Cooke City,Round Lake,collapses near Cooke,,,0,0,,,,45.0745,-109.907,,,,,,,centimeters
+,,,,,,,,,,,,,,,,,,,
+12/29/2024,Southern Gallatin,Cabin Creek,Remote trigger cabin creek,SS-AMc-R3-D2-O,,0,0,,,,44.8949,-111.228,Soft slab avalanche,O - Old snow,2,3,Persistent Slab,Snowmobile,inches
+12/29/2024,Northern Madison,Buck Ridge,Small avalanche in Buck,SS-N-D1,,0,0,,NE,20,45.1647,-111.364,Soft slab avalanche,,1,,Wind-Drifted Snow,Natural trigger,centimeters
+12/28/2024,Lionhead Range,LIONHEAD AREA,Partial Burial at Lionhead,AMu,,1,0,,,,44.7292,-111.323,,,,,,Snowmobile,centimeters
+12/28/2024,Lionhead Range,Lionhead Ridge,two avalanches at Lionhead,SS-R2-D2-O,,0,0,,,,44.7145,-111.318,Soft slab avalanche,O - Old snow,2,2,Persistent Weak Layer,,centimeters
+,,,,,,,,,,,,,,,,,,,
+12/27/2024,Bridger Range,Saddle Peak,Small Wind Slab Avalanche Saddle Peak,SS-N-R1-D1,9050,0,0,,E,150,45.7943,-110.936,Soft slab avalanche,,1,1,Wind Slab,Natural trigger,centimeters
+12/26/2024,Southern Madison,Telemark Meadows,Cracking and Collapsing in Tele Meadows,,,0,0,,,,44.8899,-111.063,,,,,,,centimeters
+,,,,,,,,,,,,,,,,,,,
+12/21/2024,Northern Madison,Buck Ridge,Snowmobiler triggered wind slab on Buck Ridge,SS-AM-R2-D1.5,9500,0,0,,NE,50,45.1719,-111.38,Soft slab avalanche,,1.5,2,Wind Slab,Snowmobile,inches
+12/19/2024,Cooke City,Goose Lake,E Face Mount Fox avalanche,SS-NC-R2-D2-O,11000,0,0,,E,,45.1153,-109.914,Soft slab avalanche,O - Old snow,2,2,Wind-Drifted Snow,Cornice fall,centimeters
+12/19/2024,Bridger Range,Wolverine Bowl,Cornice triggered avalanche in Hourglass chute,SS-NC-R2-D2-O,8500,0,0,,E,850,45.8301,-110.934,Soft slab avalanche,O - Old snow,2,2,Wind-Drifted Snow,Cornice fall,inches
+12/19/2024,Northern Madison,Fan Mountain,Natural avalanche on Fan Mountain,SS-N-R2-D2,,0,0,,,1000,45.2981,-111.524,Soft slab avalanche,,2,2,,,

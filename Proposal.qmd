@@ -1,0 +1,35 @@
+---
+title: "Stats_408_proj_proposal"
+author: "Zack Niedzwiecki"
+format: pdf
+editor: visual
+---
+
+## Avalanche Analysis
+
+For this project, Data from the Gallatin National Forest Avalanche Center (GNFAC) will be used to do many different regional analyses. Slope angle, aspect, and snowfall can all be combined into one risk number that can be averaged across the region to create a daily risk analysis. Snow totals can be averaged and piloted to develop a map of where to go ski the best snow. There is so much data that a lot of cool things can be done. The final deliverable will be a combination of maps and charts.
+
+Below I will read in and plot the regional polygons to introduce what the GNFAC regions look like.
+
+```{r}
+# READ .kml
+#install.packages("prettymapr")
+library(sf)
+library(ggplot2)
+library(ggspatial)
+library(prettymapr)
+reigons <- st_read("GNFAC Polygons All.kml")
+```
+
+```{r}
+#plot .kml
+
+reigons <- st_transform(reigons, 4326)
+
+ggplot() +
+  annotation_map_tile(type = "osm") +   # basemap
+  geom_sf(data = reigons, fill = "red", color = "black", linewidth = 0.5,) +
+  coord_sf() +
+  theme_minimal()
+
+```
